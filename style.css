@@ -4,7 +4,24 @@
     font-family: 'Roboto', sans-serif;
     position: absolute;
   }
+  @media (max-width: 1920px){
+    .menu {
+      width: 1230px;
+    }
+  }
   
+  @media (max-width: 992px){
+    .menu {
+      width: 960px;
+      max-width: 100%;
+    }
+  }
+  
+  .menu {
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+  }
   ul {
     list-style: none;
   }
