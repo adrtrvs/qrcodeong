@@ -1,12 +1,8 @@
-/* GLOBAL */
-* {
-    margin: 0;
-    padding: 0;
-  }
   
   body {
     background-color: #6495ED; /* hex: 0-F */
     font-family: 'Roboto', sans-serif;
+    position: absolute;
   }
   
   ul {
@@ -21,20 +17,20 @@
   }
   
   /* HEADER */
+ 
   header {
     padding: 32px 0;
     text-align: center;
   }
   
   header img {
-    max-width: 550px;
+    max-width: 550px; 
   }
  
   header p {
     padding: 10px;
     font-size: 18px;
     line-height: 16px;
-  
     color: rgba(0, 0, 0, 0.7);
   }
 
@@ -42,20 +38,19 @@
 
   section {
     max-width: 550px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-bottom: 24px;
 
   }
   
   section h2 {
     background-color: #E6E6FA;
-    padding: 8px 16px;
     text-align: center;
     margin-bottom: 24px;
     font-size: 18px;
   }
    ._link {
-   margin: 0px 400px auto;
+   margin: 0px 380px auto;
    position: absolute;
   }
 
