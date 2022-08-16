@@ -2,25 +2,21 @@
   body {
     background-color: #6495ED; /* hex: 0-F */
     font-family: 'Roboto', sans-serif;
+    margin: 0 0 50px;
   }
-  @media (max-width: 1920px){
+  @media (max-width: 920px){
     .menu {
-      width: 1230px;
+      width: 600px;
     }
   }
   
-  @media (max-width: 992px){
+  @media (max-width: 600px){
     .menu {
-      width: 960px;
+      width: 600px;
       max-width: 100%;
     }
   }
-  
-  .menu {
-     position: relative;
-     margin-left: auto;
-     margin-right: auto;
-  }
+
   ul .menu {
     list-style: none;
   }
@@ -37,10 +33,11 @@
   header {
     padding: 32px 0;
     text-align: center;
+    
   }
   
   header img {
-    max-width: 550px; 
+    max-width: 100%;
   }
  
   header p {
@@ -54,7 +51,6 @@
 
   section .menu {
     margin-bottom: 24px;
-
   }
   
   .menu h2 {
@@ -64,12 +60,13 @@
     font-size: 18px;
   }
    ._link {
-   margin: 0px 400px auto;
-   position: absolute;
+    margin-left:  290px;
+    position: absolute;
+
   }
 
   /* LISTA */
-  ul li {
+  ul li  {
     margin-bottom: 16px;
     display: flex;
   }
@@ -78,7 +75,6 @@
     border: none;
     color: black;
     padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
