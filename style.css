@@ -2,97 +2,70 @@
   margin: 0;
   padding: 0;
 
- }
-  body {
+  }
+body {
     background-color: #f5f5dc;
     font-family: 'Roboto', sans-serif;
-    
-    }
-    
-  /* FONTS */
-    
+  }
+header img {
+    width: 100%;
+  }
+header p {
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+  }
+
   h1, h2, h3 {
-      text-transform: uppercase; 
+    color: rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+        
 
-    }
-    
-  /* HEADER */
-  
-  header {
-      text-align: center;
-      
-    }
-    
-  header img {
-      max-width: 100%;
+  }
 
-    }
-  
-  header p {
-      padding: 10px;
-      font-size: 18px;
-      line-height: 16px;
-      color: rgba(0, 0, 0, 0.9);
-      margin-bottom: 20px;
+.menu h2 {
+    background-color: #008CBA;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.8) ;
 
-    }
+  }
 
-  /* SECTION */
-    
-  .menu h2 {
-      background-color: #008CBA;
-      text-align: center;
-      margin-bottom: 24px;
-      font-size: 23px;
-      color: whitesmoke;
+.menu h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
 
-    }
-  .submenu h3 {
-      width: 240px;
-      line-height: 25px;
-      margin-bottom: 5px;
-      padding: 0 0 0 5px;
-      font-size: 16px;
-
-
-    }
-  ._link {
-      margin-left: 70%;
-      position: absolute;
-      background-color: #008CBA; 
-      border: none;
-      padding: 9px 13px;
-      border-radius: 15px;
-
-     
-    }
-   ._link:hover {
-      background-color: #4CAF50; 
-      transition-duration: 0.4s;
-
-    } 
-   .submenu button a {
-    text-decoration: none;
-    font-size: 14px;
-    color: whitesmoke;
-    
-   }
-    .details p {
-      color: rgba(0, 0, 0, 0.8);
-      font-size: 12px;
-      line-height: 13px;
-      padding: 5px;
-      /*margin-bottom: 10px;*/
-      
-
-
-     }
-
-  /* LISTA */
-  ul li {
-     margin-bottom: 12px;
-     display: flex;
-     border-bottom: 1px solid rgb(0, 0, 0, 0.1);
-    }
-
+ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
  
+.details{
+  padding: 5px;
+}
+._link {
+  background-color: #008CBA; 
+  border: none;
+  padding: 13px 23px;
+  border-radius: 26px;
+  align-self: flex-start;
+ 
+  }
+.submenu button a {
+  text-decoration: none;
+  font-size: 14px;
+  color: whitesmoke;
+  white-space: nowrap;
+  
+}
+._link:hover {
+  background-color: #4CAF50; 
+  transition-duration: 0.4s;
+
+}
