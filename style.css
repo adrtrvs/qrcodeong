@@ -1,29 +1,74 @@
-*{
-  margin: 0;
+* {
   padding: 0;
+  margin: 0;
+}
 
-  }
 body {
     background-color: #f5f5dc;
     font-family: 'Roboto', sans-serif;
-  }
+}
 header img {
     width: 100%;
-  }
+}
 header p {
     color: rgba(0, 0, 0, 0.8);
     text-align: center;
     font-size: 18px;
     margin: 10px;
-  }
+}
 
-  h1, h2, h3 {
+/*Botão Campaign urgente*/
+
+.campaignbutton {
+ text-align: center;
+ margin: 20px;
+
+}
+.campaignbutton a{
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 2em;
+   color: whitesmoke;
+   text-align: center;
+   animation: animate 2s linear infinite;
+
+ } 
+  
+ @keyframes animate{
+   0%{
+     opacity: 0;
+   }
+   50%{
+     opacity: 1;
+   }
+   100%{
+     opacity: 0;
+   }
+ }
+ 
+.bcampaign {
+padding: 8px 15px;
+border-radius: 26px;
+border: none;
+background-color: #cb0003;
+
+}
+
+.bcampaign:hover {
+background-color: #4CAF50; 
+transition-duration: 0.4s;
+
+}
+
+/*Fonts*/
+
+h1, h2, h3 {
     color: rgba(0, 0, 0, 0.9);
     text-transform: uppercase;
         
+}
 
-  }
-
+/*Menu principal*/
 .menu h2 {
     background-color: #008CBA;
     text-align: center;
@@ -32,31 +77,35 @@ header p {
     padding: 5px;
     color: rgba(0, 0, 0, 0.8) ;
 
-  }
+}
 
 .menu h3 {
   font-size: 16px;
   margin-bottom: 5px;
 }
-
+/* Listas*/
 ul li {
     display: flex;
     justify-content: space-between;
     padding: 16px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+
 }
- 
+/* paragrafos da lista*/
 .details{
   padding: 5px;
+
 }
+
+/*botão clique lista*/
 ._link {
   background-color: #008CBA; 
   border: none;
   padding: 13px 23px;
   border-radius: 26px;
   align-self: flex-start;
- 
-  }
+
+}
 .submenu button a {
   text-decoration: none;
   font-size: 14px;
@@ -69,3 +118,66 @@ ul li {
   transition-duration: 0.4s;
 
 }
+/* CAMPAIGN VIDEO*/
+.campaignvid {
+  display: flex;
+  background-color: #f5f5dc;
+  flex-direction: column;
+
+}
+
+.campaigndescription {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 16px;
+ 
+}
+
+/* BUTTOM CAMPAIGN*/
+.buttoncampaignaj {
+  text-align: center;
+  margin: 20px;
+ 
+}
+ .buttoncampaignaj a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: whitesmoke;
+    text-align: center;
+    animation: animate 2s linear infinite;
+ 
+} 
+   
+  @keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+}
+  
+.campaignvid h2 {
+  text-align: center;
+  font-family:'Courier New', Courier, monospace, bold;
+  font-size: 30px;
+}
+ .buttoncampaignaj {
+ padding: 8px 15px;
+ border-radius: 26px;
+ border: none;
+ background-color: #008CBA;
+ 
+}
+ 
+ .buttoncampaignaj:hover {
+ background-color: #4CAF50; 
+ transition-duration: 0.4s;
+ 
+}
+
+
