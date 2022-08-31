@@ -4,120 +4,135 @@
 }
 
 body {
-    background-color: #f5f5dc;
-    font-family: 'Roboto', sans-serif;
+  background-color: #f5f5dc;
+  font-family: 'Roboto', sans-serif;
 }
+
 header img {
-    width: 100%;
+  width: 100%;
+
 }
+
 header p {
-    color: rgba(0, 0, 0, 0.8);
-    text-align: center;
-    font-size: 18px;
-    margin: 10px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 18px;
+  margin: 10px;
+
 }
 
 /*Botão Campaign urgente*/
 
 .campaignbutton {
- text-align: center;
- margin: 20px;
+  text-align: center;
+  margin: 20px;
 
 }
-.campaignbutton a{
-   text-decoration: none;
-   text-transform: uppercase;
-   font-size: 2em;
-   color: whitesmoke;
-   text-align: center;
-   animation: animate 2s linear infinite;
 
- } 
-  
- @keyframes animate{
-   0%{
-     opacity: 0;
-   }
-   50%{
-     opacity: 1;
-   }
-   100%{
-     opacity: 0;
-   }
- }
- 
+.campaignbutton a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: whitesmoke;
+  text-align: center;
+  animation: animate 2s linear infinite;
+
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 .bcampaign {
-padding: 8px 15px;
-border-radius: 26px;
-border: none;
-background-color: #cb0003;
+  padding: 8px 15px;
+  border-radius: 26px;
+  border: none;
+  background-color: #cb0003;
 
 }
 
 .bcampaign:hover {
-background-color: #4CAF50; 
-transition-duration: 0.4s;
+  background-color: #4CAF50;
+  transition-duration: 0.4s;
 
 }
 
 /*Fonts*/
 
-h1, h2, h3 {
-    color: rgba(0, 0, 0, 0.9);
-    text-transform: uppercase;
-        
+h1,
+h2,
+h3 {
+  color: rgba(0, 0, 0, 0.9);
+  text-transform: uppercase;
+
 }
 
 /*Menu principal*/
 .menu h2 {
-    background-color: #008CBA;
-    text-align: center;
-    font-size: 18px;
-    margin: 5px;
-    padding: 5px;
-    color: rgba(0, 0, 0, 0.8) ;
+  background-color: #008CBA;
+  text-align: center;
+  font-size: 18px;
+  margin: 5px;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.8);
 
 }
 
 .menu h3 {
   font-size: 16px;
   margin-bottom: 5px;
-}
-/* Listas*/
-ul li {
-    display: flex;
-    justify-content: space-between;
-    padding: 16px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
 
 }
+
+/* Listas*/
+ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
 /* paragrafos da lista*/
-.details{
+.details {
   padding: 5px;
 
 }
 
 /*botão clique lista*/
 ._link {
-  background-color: #008CBA; 
+  background-color: #008CBA;
   border: none;
   padding: 13px 23px;
   border-radius: 26px;
   align-self: flex-start;
 
 }
+
 .submenu button a {
   text-decoration: none;
   font-size: 14px;
   color: whitesmoke;
   white-space: nowrap;
-  
+
 }
+
 ._link:hover {
-  background-color: #4CAF50; 
+  background-color: #4CAF50;
   transition-duration: 0.4s;
 
 }
+
 /* CAMPAIGN VIDEO*/
 .campaignvid {
   display: flex;
@@ -130,54 +145,57 @@ ul li {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.9);
   padding: 16px;
- 
+
 }
 
 /* BUTTOM CAMPAIGN*/
 .buttoncampaignaj {
   text-align: center;
   margin: 20px;
- 
+
 }
- .buttoncampaignaj a{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 2em;
-    color: whitesmoke;
-    text-align: center;
-    animation: animate 2s linear infinite;
- 
-} 
-   
-  @keyframes animate{
-    0%{
-      opacity: 0;
-    }
-    50%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 0;
-    }
+
+.buttoncampaignaj a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: whitesmoke;
+  text-align: center;
+  animation: animate 2s linear infinite;
+
 }
-  
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 .campaignvid h2 {
   text-align: center;
-  font-family:'Courier New', Courier, monospace, bold;
+  font-family: 'Courier New', Courier, monospace, bold;
   font-size: 30px;
-}
- .buttoncampaignaj {
- padding: 8px 15px;
- border-radius: 26px;
- border: none;
- background-color: #008CBA;
- 
-}
- 
- .buttoncampaignaj:hover {
- background-color: #4CAF50; 
- transition-duration: 0.4s;
- 
+
 }
 
+.buttoncampaignaj {
+  padding: 8px 15px;
+  border-radius: 26px;
+  border: none;
+  background-color: #008CBA;
 
+}
+
+.buttoncampaignaj:hover {
+  background-color: #4CAF50;
+  transition-duration: 0.4s;
+
+}
