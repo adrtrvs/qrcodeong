@@ -1,42 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@500&display=swap');
 * {
   padding: 0;
   margin: 0;
 }
-
-body {
-  background-color: #f5f5dc;
-  font-family: 'Roboto', sans-serif;
-}
-
-header img {
-  width: 100%;
-}
-
-header p {
-  color: rgba(0, 0, 0, 0.8);
-  text-align: center;
-  font-size: 18px;
-  margin: 10px;
-}
-
-/*Botão Campaign urgente*/
-
-.campaignbutton {
-  text-align: center;
-  margin: 20px;
-
-}
-
-.campaignbutton a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 2em;
-  color: whitesmoke;
-  text-align: center;
-  animation: animate 2s linear infinite;
-
-}
-
 @keyframes animate {
   0% {
     opacity: 0;
@@ -51,18 +19,53 @@ header p {
   }
 }
 
+body {
+  /*  background-color: #f5f5dc;*/
+  background-image: url(./files/natalbody.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+header img {
+  width: 100%;
+}
+
+header p {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 18px;
+  margin: 10px;
+  font-family: 'Cuprum', sans-serif;
+}
+
+/*Botão Campaign urgente*/
+
+.campaignbutton {
+  text-align: center;
+  margin: 20px;
+}
+
+.campaignbutton a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: rgba(219, 10, 10, 0.73);
+  text-align: center;
+  animation: animate 2s linear infinite;
+  font-family: 'Cuprum', sans-serif;
+}
+
 .bcampaign {
   padding: 8px 15px;
   border-radius: 26px;
   border: none;
-  background-color: #cb0003;
-
+  background-color: #4caf50;
 }
 
 .bcampaign:hover {
-  background-color: #4CAF50;
+  background-color: #cbf305;
   transition-duration: 0.4s;
-
 }
 
 /*Fonts*/
@@ -70,25 +73,26 @@ header p {
 h1,
 h2,
 h3 {
-  color: rgba(0, 0, 0, 0.9);
+  color: #4caf50;
   text-transform: uppercase;
-
+  font-family: 'Cuprum', sans-serif;
 }
 
 /*Menu principal*/
 .menu h2 {
-  background-color: #008CBA;
+  background-color: #4caf50;
   text-align: center;
   font-size: 18px;
   margin: 5px;
   padding: 5px;
-  color: rgba(0, 0, 0, 0.8);
-
+  color: whitesmoke;
+  font-family: 'Cuprum', sans-serif;
 }
 
 .menu h3 {
   font-size: 16px;
   margin-bottom: 5px;
+  font-family: 'Cuprum', sans-serif;
 }
 
 /* Listas*/
@@ -96,23 +100,23 @@ ul li {
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* paragrafos da lista*/
 .details {
   padding: 5px;
-
+  color: #4caf50;
+  font-family: 'Cuprum', sans-serif;
 }
 
 /*botão clique lista*/
 ._link {
-  background-color: #008CBA;
+  background-color: #4caf50;
   border: none;
   padding: 13px 23px;
   border-radius: 26px;
   align-self: flex-start;
-
 }
 
 .submenu button a {
@@ -120,17 +124,13 @@ ul li {
   font-size: 14px;
   color: whitesmoke;
   white-space: nowrap;
-
+  font-family: 'Cuprum', sans-serif;
 }
 
 ._link:hover {
-  background-color: #4CAF50;
+  background-color: #cbf305;
   transition-duration: 0.4s;
-
 }
-
-
-
 
 /* CAMPAIGN*/
 
@@ -144,45 +144,26 @@ ul li {
   padding: 8px 15px;
   border-radius: 26px;
   border: none;
-  background-color: #008CBA;
+  background-color: #008cba;
   margin: 20px;
-
 }
-
 
 .buttoncampaignaj a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 2em;
   color: whitesmoke;
-  animation: animate 2s linear infinite;
-
-
-}
-
-@keyframes animate {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
+  animation: animate 3s linear infinite;
 }
 
 .buttoncampaignaj:hover {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   transition-duration: 0.4s;
-
 }
 
 .titlecampaing {
   text-align: center;
-  color: rgba(0, 0, 0, 0.9)
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .campaigndescription {
@@ -191,5 +172,4 @@ ul li {
   padding: 16px;
   text-align: center;
   justify-content: space-between;
-
 }

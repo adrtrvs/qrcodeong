@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+#campaingnatal {
+  background-image: url(./files/backnatal.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Cuprum', sans-serif;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+#campaingnatal h2 {
+  color: white;
+  padding: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Poor Story', cursive;
+}
+div #buttonatal {
+  display: flex;
+  justify-content: center;
+}
+
+#buttonatal a {
+  text-decoration: none;
+  color: #cb0003;
+}
+
+#buttonatal button {
+  animation: animate 1.5s linear infinite;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 26px;
+  padding: 16px;
+  margin-top: 20px;
+  background-color: #4caf50;
+}
