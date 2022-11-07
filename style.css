@@ -78,6 +78,10 @@ h3 {
   font-family: 'Cuprum', sans-serif;
 }
 
+.pix {
+  color: white;
+}
+
 /*Menu principal*/
 .menu h2 {
   background-color: #4caf50;
