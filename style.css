@@ -185,14 +185,9 @@ ul li {
   background-color: #cbf305;
   transition-duration: 0.4s;
 }
-body ._pix {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 ._pix {
   color: black;
   padding: 20px;
+  text-align: center;
 }
