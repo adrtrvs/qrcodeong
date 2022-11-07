@@ -180,9 +180,16 @@ ul li {
   border: none;
   padding: 13px 23px;
   border-radius: 26px;
-  align-self: flex-start;
 }
 .botaocomprov:hover {
   background-color: #cbf305;
   transition-duration: 0.4s;
+}
+body ._pix {
+  text-align: center;
+}
+
+._pix {
+  color: black;
+  padding: 20px;
 }
