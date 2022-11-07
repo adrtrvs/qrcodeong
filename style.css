@@ -78,12 +78,8 @@ h3 {
   font-family: 'Cuprum', sans-serif;
 }
 
-._pix h2,
-h3 {
-  color: rgb(0, 0, 0);
-}
+/* Menu principal */
 
-/*Menu principal*/
 .menu h2 {
   background-color: #4caf50;
   text-align: center;
@@ -177,4 +173,16 @@ ul li {
   padding: 16px;
   text-align: center;
   justify-content: space-between;
+}
+
+.botaocomprov {
+  background-color: #4caf50;
+  border: none;
+  padding: 13px 23px;
+  border-radius: 26px;
+  align-self: flex-start;
+}
+.botaocomprov:hover {
+  background-color: #cbf305;
+  transition-duration: 0.4s;
 }
