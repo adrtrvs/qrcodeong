@@ -21,6 +21,7 @@
 
 body {
   /*  background-color: #f5f5dc;*/
+  background-image: url(./files/natalbody.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -59,7 +60,7 @@ header p {
   padding: 8px 15px;
   border-radius: 26px;
   border: none;
-  background-color: #008cba;
+  background-color: #4caf50;
 }
 
 .bcampaign:hover {
@@ -72,7 +73,7 @@ header p {
 h1,
 h2,
 h3 {
-  color: #008cba;
+  color: #4caf50;
   text-transform: uppercase;
   font-family: 'Cuprum', sans-serif;
 }
@@ -80,7 +81,7 @@ h3 {
 /* Menu principal */
 
 .menu h2 {
-  background-color: #008cba;
+  background-color: #4caf50;
   text-align: center;
   font-size: 18px;
   margin: 5px;
@@ -106,13 +107,13 @@ ul li {
 /* paragrafos da lista*/
 .details {
   padding: 5px;
-  color: #008cba;
+  color: #4caf50;
   font-family: 'Cuprum', sans-serif;
 }
 
 /*botão clique lista*/
 ._link {
-  background-color: #008cba;
+  background-color: #4caf50;
   border: none;
   padding: 13px 23px;
   border-radius: 26px;
