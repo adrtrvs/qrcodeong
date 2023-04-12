@@ -202,10 +202,13 @@ div.trocorockn {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: whitesmoke;
 }
 .trocorockn img {
   max-width: -webkit-fill-available;
 }
 .ultroco li {
   text-align: center;
+  font-family: 'Cuprum', sans-serif;
+  color: #008cba;
 }
