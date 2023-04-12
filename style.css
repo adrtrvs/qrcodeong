@@ -204,3 +204,6 @@ ul li {
   flex-direction: row;
   justify-content: center;
 }
+.trocorockn img {
+  max-width: -webkit-fill-available;
+}
