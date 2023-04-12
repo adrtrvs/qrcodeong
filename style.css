@@ -198,7 +198,7 @@ ul li {
 }
 /* TROCO SOLIDÁRIO */
 
-.trocorockn img {
+div .trocorockn {
   width: 100%;
   display: flex;
   flex-direction: row;
