@@ -198,12 +198,6 @@ ul li {
 }
 /* TROCO SOLIDÁRIO */
 
-.trocorockn div {
-  width: min-content;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 .trocorockn img {
   max-width: -webkit-fill-available;
 }
