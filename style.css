@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: #f5f5dc;
+  /* background-color: #f5f5dc; */
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -164,7 +164,7 @@ div.trocorockn {
 /*BOTÃO CAMPANHAS*/
 
 .campaignbutton {
-  background-color: rgba(219, 10, 10, 0.73);
+  background-color: rgba(10, 219, 219, 0.73);
   border: none;
   padding: 13px 23px;
   border-radius: 26px;
@@ -192,6 +192,7 @@ div.trocorockn {
 } */
 
 /* CAMPAIGN*/
+
 .vidcampaing {
   display: flex;
   flex-direction: column;

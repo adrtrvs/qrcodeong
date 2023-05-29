@@ -20,10 +20,14 @@
 }
 
 body {
-  background-color: #f5f5dc;
+  /* background-color: #f5f5dc; */
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+}
+header {
+  display: flex;
+  flex-direction: column;
 }
 
 header img {
@@ -160,7 +164,7 @@ div.trocorockn {
 /*BOTÃO CAMPANHAS*/
 
 .campaignbutton {
-  background-color: rgba(219, 10, 10, 0.73);
+  background-color: rgba(10, 219, 219, 0.73);
   border: none;
   padding: 13px 23px;
   border-radius: 26px;
@@ -186,13 +190,22 @@ div.trocorockn {
   background-color: #cbf305;
   transition-duration: 0.4s;
 } */
+
 /* CAMPAIGN*/
 
-/* campaignvid {
+.vidcampaing {
   display: flex;
   flex-direction: column;
   align-items: center;
- */
+  width: 100%;
+}
+.campaigndescription {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 16px;
+  text-align: center;
+  justify-content: space-between;
+}
 
 /* .buttoncampaignaj {
   padding: 8px 15px;
@@ -219,11 +232,4 @@ div.trocorockn {
   text-align: center;
   color: rgba(0, 0, 0, 0.9);
 }
-
-.campaigndescription {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.8);
-  padding: 16px;
-  text-align: center;
-  justify-content: space-between;
-} */
+*/
