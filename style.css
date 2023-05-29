@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@500&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -193,6 +194,11 @@ div.trocorockn {
 } */
 
 /* CAMPAIGN*/
+div.arraiaback {
+  background-image: url(./files/imgbandeirinhaas.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 .vidcampaing {
   display: flex;
@@ -200,6 +206,26 @@ div.trocorockn {
   align-items: center;
   width: 100%;
 }
+
+h3.titlearraia {
+  text-align: center;
+  font-size: 20px;
+  background: linear-gradient(
+    to right,
+    blue 3%,
+    blue 4%,
+    green 6%,
+    green 10%,
+    red 15%,
+    red 30%,
+    orange 50%,
+    orange 80%,
+    purple 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .campaigndescription {
   margin-top: 20px;
   font-size: 18px;
@@ -207,6 +233,23 @@ div.trocorockn {
   padding: 10px;
   text-align: center;
   justify-content: space-between;
+}
+.campaigndescription a {
+  text-decoration: none;
+  background: linear-gradient(
+    to right,
+    blue 3%,
+    blue 4%,
+    green 6%,
+    green 10%,
+    red 15%,
+    red 30%,
+    orange 50%,
+    orange 80%,
+    purple 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* .buttoncampaignaj {
