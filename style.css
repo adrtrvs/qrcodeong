@@ -201,9 +201,10 @@ div.trocorockn {
   width: 100%;
 }
 .campaigndescription {
-  font-size: 16px;
+  margin-top: 20px;
+  font-size: 18px;
   color: rgba(0, 0, 0, 0.8);
-  padding: 16px;
+  padding: 10px;
   text-align: center;
   justify-content: space-between;
 }
