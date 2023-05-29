@@ -194,10 +194,21 @@ div.trocorockn {
 } */
 
 /* CAMPAIGN*/
-div.arraiaback {
-  background-image: url(./files/imgbandeirinhaas.jpeg);
-  background-repeat: no-repeat;
-  background-size: contain;
+div.campaingback {
+  font-family: 'Cuprum', sans-serif;
+  background: linear-gradient(
+    to right,
+    blue 3%,
+    blue 4%,
+    green 6%,
+    green 10%,
+    red 15%,
+    red 30%,
+    orange 35%,
+    purple 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .vidcampaing {
@@ -209,21 +220,6 @@ div.arraiaback {
 
 h3.titlearraia {
   text-align: center;
-  font-size: 20px;
-  background: linear-gradient(
-    to right,
-    blue 3%,
-    blue 4%,
-    green 6%,
-    green 10%,
-    red 15%,
-    red 30%,
-    orange 50%,
-    orange 80%,
-    purple 90%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .campaigndescription {
@@ -236,20 +232,6 @@ h3.titlearraia {
 }
 .campaigndescription a {
   text-decoration: none;
-  background: linear-gradient(
-    to right,
-    blue 3%,
-    blue 4%,
-    green 6%,
-    green 10%,
-    red 15%,
-    red 30%,
-    orange 50%,
-    orange 80%,
-    purple 90%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 /* .buttoncampaignaj {
